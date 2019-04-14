@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Search Search matches snapshot 1`] = `
+<Search
+  count={200}
+  label="Sample"
+  type="primary"
+>
+  <div>
+    <SearchForm
+      search={[Function]}
+    >
+      <div
+        className="form-inline"
+      >
+        <input
+          className="form-control"
+          onChange={[Function]}
+          placeholder="Search Thread"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Search
+        </button>
+      </div>
+    </SearchForm>
+  </div>
+</Search>
+`;

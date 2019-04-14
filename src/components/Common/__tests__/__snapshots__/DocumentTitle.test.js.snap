@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: DocumentTitle DocumentTitle matches snapshot 1`] = `
+<DocumentTitle
+  listen={false}
+  prefix="Sample"
+>
+  <h3>
+    Sample - 0, 0
+  </h3>
+</DocumentTitle>
+`;
+
+exports[`Component: DocumentTitle DocumentTitle matches snapshot Diff 1 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -1,7 +1,7 @@
+  <DocumentTitle
+-   listen={false}
++   listen={true}
+    prefix=\\"Sample\\"
+  >
+    <h3>
+      Sample - 0, 0
+    </h3>"
+`;

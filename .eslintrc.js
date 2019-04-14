@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
   parser: 'babel-eslint',
-  plugins: ['react', 'jest', 'flowtype', 'react-hooks'],
+  plugins: ['react', 'jest', 'flowtype', 'import', 'react-hooks'],
   env: {
     browser: true,
     node: true,
@@ -14,6 +14,12 @@ module.exports = {
     jsx: true,
     flowtype: {
       onlyFilesWithFlowAnnotation: true,
+    },
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      typescript: {},
     },
   },
   rules: {
@@ -39,7 +45,11 @@ module.exports = {
       },
     ],
     'import/first': 0,
-    'import/extensions': [2, 'always', { js: 'never', json: 'never' }],
+    'import/extensions': [
+      2,
+      'always',
+      { js: 'never', ts: 'never', tsx: 'never', json: 'never' },
+    ],
     'import/no-named-as-default': 0,
     'arrow-body-style': 0,
     'no-else-return': 0,

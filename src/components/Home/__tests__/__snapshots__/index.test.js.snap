@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Home Home matches snapshot 1`] = `
+<Home
+  count={200}
+  label="Sample"
+  type="primary"
+>
+  <div>
+    <div>
+      <ThreadList>
+        <div>
+          <div />
+        </div>
+      </ThreadList>
+    </div>
+    <div>
+      <Thread>
+        <div />
+      </Thread>
+    </div>
+  </div>
+</Home>
+`;

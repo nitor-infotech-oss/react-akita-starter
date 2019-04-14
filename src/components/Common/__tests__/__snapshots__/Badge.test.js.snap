@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Badge Badge matches snapshot 1`] = `
+<Badge
+  count={200}
+  label="Sample"
+  type="primary"
+>
+  <span>
+     
+    <span
+      className="badge badge-pill badge-primary"
+    >
+      200
+    </span>
+     
+    Sample
+      
+  </span>
+</Badge>
+`;
