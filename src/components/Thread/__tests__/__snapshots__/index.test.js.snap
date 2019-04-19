@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Thread Thread matches snapshot 1`] = `
+<Thread>
+  <div />
+</Thread>
+`;

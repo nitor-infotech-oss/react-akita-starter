@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: List List matches snapshot 1`] = `
+<List
+  items={
+    Array [
+      Object {
+        "data": Object {
+          "author": "sample",
+          "downs": 0,
+          "id": "1",
+          "replies": Object {
+            "data": Object {
+              "children": Array [],
+            },
+          },
+          "ups": 100,
+        },
+      },
+      Object {
+        "data": Object {
+          "author": "sample",
+          "downs": 0,
+          "id": "2",
+          "replies": Object {
+            "data": Object {
+              "children": Array [],
+            },
+          },
+          "ups": 100,
+        },
+      },
+    ]
+  }
+>
+  <div>
+    <div
+      className="card"
+    >
+      <div
+        className="card-header"
+      >
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+        />
+      </div>
+      <div
+        className="card-body"
+      >
+        <img
+          alt="Avatar"
+          height={60}
+          src="https://www.redditstatic.com/avatars/avatar_default_04_D4E815.png"
+          width={60}
+        />
+        <h5
+          className="card-title"
+        />
+        <p
+          className="card-text"
+        >
+          <Badge
+            label="Comments"
+            type="primary"
+          >
+            <span>
+               
+              <span
+                className="badge badge-pill badge-primary"
+              />
+               
+              Comments
+                
+            </span>
+          </Badge>
+          <Badge
+            count={100}
+            label="Ups"
+            type="success"
+          >
+            <span>
+               
+              <span
+                className="badge badge-pill badge-success"
+              >
+                100
+              </span>
+               
+              Ups
+                
+            </span>
+          </Badge>
+          <Badge
+            count={0}
+            label="Downs"
+            type="danger"
+          >
+            <span>
+               
+              <span
+                className="badge badge-pill badge-danger"
+              >
+                0
+              </span>
+               
+              Downs
+                
+            </span>
+          </Badge>
+          <Badge
+            label="Score"
+            type="info"
+          >
+            <span>
+               
+              <span
+                className="badge badge-pill badge-info"
+              />
+               
+              Score
+                
+            </span>
+          </Badge>
+        </p>
+        <button
+          className="btn btn-success btn-block"
+          onClick={[Function]}
+          type="button"
+        >
+          Open
+        </button>
+      </div>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="card-header"
+      >
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+        />
+      </div>
+      <div
+        className="card-body"
+      >
+        <img
+          alt="Avatar"
+          height={60}
+          src="https://www.redditstatic.com/avatars/avatar_default_04_D4E815.png"
+          width={60}
+        />
+        <h5
+          className="card-title"
+        />
+        <p
+          className="card-text"
+        >
+          <Badge
+            label="Comments"
+            type="primary"
+          >
+            <span>
+               
+              <span
+                className="badge badge-pill badge-primary"
+              />
+               
+              Comments
+                
+            </span>
+          </Badge>
+          <Badge
+            count={100}
+            label="Ups"
+            type="success"
+          >
+            <span>
+               
+              <span
+                className="badge badge-pill badge-success"
+              >
+                100
+              </span>
+               
+              Ups
+                
+            </span>
+          </Badge>
+          <Badge
+            count={0}
+            label="Downs"
+            type="danger"
+          >
+            <span>
+               
+              <span
+                className="badge badge-pill badge-danger"
+              >
+                0
+              </span>
+               
+              Downs
+                
+            </span>
+          </Badge>
+          <Badge
+            label="Score"
+            type="info"
+          >
+            <span>
+               
+              <span
+                className="badge badge-pill badge-info"
+              />
+               
+              Score
+                
+            </span>
+          </Badge>
+        </p>
+        <button
+          className="btn btn-success btn-block"
+          onClick={[Function]}
+          type="button"
+        >
+          Open
+        </button>
+      </div>
+    </div>
+  </div>
+</List>
+`;

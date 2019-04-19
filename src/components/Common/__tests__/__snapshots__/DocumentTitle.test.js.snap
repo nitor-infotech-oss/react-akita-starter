@@ -3,10 +3,10 @@
 exports[`Component: DocumentTitle DocumentTitle matches snapshot 1`] = `
 <DocumentTitle
   listen={false}
-  prefix="Sample"
+  prefix="demo"
 >
   <h3>
-    Sample - 0, 0
+    demo - 0, 0
   </h3>
 </DocumentTitle>
 `;
@@ -20,9 +20,9 @@ exports[`Component: DocumentTitle DocumentTitle matches snapshot Diff 1 1`] = `
   <DocumentTitle
 -   listen={false}
 +   listen={true}
-    prefix=\\"Sample\\"
+    prefix=\\"demo\\"
   >
     <h3>
-      Sample - 0, 0
+      demo - 0, 0
     </h3>"
 `;

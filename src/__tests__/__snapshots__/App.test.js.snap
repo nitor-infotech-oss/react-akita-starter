@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: App App matches snapshot 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <DocumentTitle
+        listen={true}
+        prefix="Reddit Threads"
+      >
+        <h3>
+          Reddit Threads - 0, 0
+        </h3>
+      </DocumentTitle>
+      <div>
+        <Search>
+          <div>
+            <SearchForm
+              search={[Function]}
+            >
+              <div
+                className="form-inline"
+              >
+                <input
+                  className="form-control"
+                  onChange={[Function]}
+                  placeholder="Search Thread"
+                  type="text"
+                  value=""
+                />
+                <button
+                  className="btn btn-primary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Search
+                </button>
+              </div>
+            </SearchForm>
+          </div>
+        </Search>
+      </div>
+    </header>
+    <Home>
+      <div>
+        <div>
+          <ThreadList>
+            <div>
+              <div />
+            </div>
+          </ThreadList>
+        </div>
+        <div>
+          <Thread>
+            <div />
+          </Thread>
+        </div>
+      </div>
+    </Home>
+  </div>
+</App>
+`;

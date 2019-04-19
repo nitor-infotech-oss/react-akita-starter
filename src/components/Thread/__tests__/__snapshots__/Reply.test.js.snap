@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: Reply Reply matches snapshot 1`] = `
+<Reply
+  counter={1}
+  reply={
+    Object {
+      "data": Object {
+        "author": "sample",
+        "downs": 0,
+        "replies": Object {
+          "data": Object {
+            "children": Array [],
+          },
+        },
+        "ups": 100,
+      },
+    }
+  }
+>
+  <div
+    className="alert text-left border-top-0"
+  >
+    <div>
+      <small>
+        »
+      </small>
+      reply from  
+      <a
+        href="https://www.reddit.com/user/sample"
+      >
+        sample
+      </a>
+       
+      <small>
+         on 
+        Invalid Date
+      </small>
+    </div>
+    <Badge
+      count={100}
+      label="Ups"
+      type="success"
+    >
+      <span>
+         
+        <span
+          className="badge badge-pill badge-success"
+        >
+          100
+        </span>
+         
+        Ups
+          
+      </span>
+    </Badge>
+    <Badge
+      count={0}
+      label="Downs"
+      type="danger"
+    >
+      <span>
+         
+        <span
+          className="badge badge-pill badge-danger"
+        >
+          0
+        </span>
+         
+        Downs
+          
+      </span>
+    </Badge>
+    <p />
+    <ReactMarkdown
+      astPlugins={Array []}
+      escapeHtml={true}
+      plugins={Array []}
+      rawSourcePos={false}
+      renderers={Object {}}
+      skipHtml={false}
+      sourcePos={false}
+      transformLinkUri={[Function]}
+    >
+      <Root />
+    </ReactMarkdown>
+  </div>
+</Reply>
+`;

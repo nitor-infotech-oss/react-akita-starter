@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 export const DocumentTitle = ({ prefix, listen }) => {
   const [pos, setPos] = useState({ x: 0, y: 0 });
+  const [title, setTitle] = useState('');
 
   useEffect(() => {
     if (listen) {
@@ -20,10 +21,12 @@ export const DocumentTitle = ({ prefix, listen }) => {
   }, [listen]);
 
   useEffect(() => {
-    document.title = `${prefix} - ${pos.x}, ${pos.y}`;
+    const positionTitle = `${prefix} - ${pos.x}, ${pos.y}`;
+    document.title = positionTitle;
+    setTitle(positionTitle);
   }, [pos, prefix]);
 
-  return <h3>{`${prefix} - ${pos.x}, ${pos.y}`}</h3>;
+  return <h3>{title}</h3>;
 };
 
 DocumentTitle.propTypes = {

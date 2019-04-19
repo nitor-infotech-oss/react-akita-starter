@@ -3,7 +3,7 @@ import { Query } from '@datorama/akita';
 import { ThreadStore, threadStore } from './thread.store';
 import { IThreadState } from './thread.state';
 
-export class ThreadQuery extends Query<IThreadState> {
+class ThreadQuery extends Query<IThreadState> {
   constructor(protected store: ThreadStore) {
     super(store);
   }

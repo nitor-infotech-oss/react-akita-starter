@@ -6,7 +6,7 @@ import DocumentTitle from '../DocumentTitle';
 
 describe('Component: DocumentTitle', () => {
   const props = {
-    prefix: 'Sample',
+    prefix: 'demo',
     listen: false,
   };
   const component = mount(<DocumentTitle {...props} />);

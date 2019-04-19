@@ -9,6 +9,7 @@ describe('Component: Home', () => {
     type: 'primary',
     count: 200,
   };
+
   it('Home matches snapshot', () => {
     const component = mount(<Home {...props} />);
     expect(component).toMatchSnapshot();
