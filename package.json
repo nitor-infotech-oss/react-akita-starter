@@ -47,9 +47,8 @@
   },
   "husky": {
     "hooks": {
-      "post-merge": "node tools update",
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn lint && yarn test"
+      "pre-commit": "lint-staged && yarn lint",
+      "pre-push": "yarn test --no-watch"
     }
   },
   "lint-staged": {
