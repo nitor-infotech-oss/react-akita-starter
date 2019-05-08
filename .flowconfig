@@ -1,0 +1,25 @@
+[ignore]
+.*/node_modules/.*
+.*/build/.*
+.*/dist/.*
+.*/integrationTests/.*
+.*/webpack/.*
+.*/yml/.*
+.*/__tests__/.*
+
+[include]
+
+[libs]
+flow-typed
+
+[options]
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=src/
+esproposal.decorators=ignore
+suppress_comment= \\(.\\|\n\\)*\\flow-disable-next-line
+
+module.file_ext=.js
+module.file_ext=.css
+module.file_ext=.scss
+module.name_mapper.extension='css' -> '{}'
+module.name_mapper.extension='scss' -> '{}'
