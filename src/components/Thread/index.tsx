@@ -8,24 +8,24 @@ import Comment from './Comment';
 export const Thread = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [currentPostId, setCurrentPostId] = useState('');
-  const [currentPost, setCurrentPost] = useState();
+  // const [currentPost, setCurrentPost] = useState();
   const [comments, setCurrentPostComments] = useState();
 
   useEffect(() => {
     subscribeHelper(threadQuery.getCurrentPostId, setCurrentPostId);
-  });
+  }, []);
 
   useEffect(() => {
     subscribeHelper(threadQuery.getIsLoading, setIsLoading);
-  });
+  }, []);
 
   useEffect(() => {
     subscribeHelper(threadQuery.getCurrentPostComments, setCurrentPostComments);
-  });
+  }, []);
 
-  useEffect(() => {
-    subscribeHelper(threadQuery.getCurrentPost, setCurrentPost);
-  });
+  // useEffect(() => {
+  //   subscribeHelper(threadQuery.getCurrentPost, setCurrentPost);
+  // }, []);
 
   const closePost = () => {
     threadService.closeCurrentPost();
