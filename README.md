@@ -1,5 +1,7 @@
 # React-Akita-TypeScript boilerplate
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nitor-infotech-oss/react-akita-starter.svg)](https://greenkeeper.io/)
+
 ## Starter kit with react-router, react-helmet, React, Akita, React-Hooks, TypeScript, ES6
 
 This starter-kit app is using [React](https://reactjs.org/) with [TypeScript](https://www.typescriptlang.org/) and ES6, purely based on [React Hooks](https://reactjs.org/docs/hooks-intro.html) (Functional Components)
