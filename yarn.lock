@@ -1145,10 +1145,10 @@
   resolved "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-9.0.1.tgz#c27b391d8457d1e893f1eddeaf5e5412d12ffbb5"
   integrity sha512-6It2EVfGskxZCQhuykrfnALg7oVeiI6KclWSmGDqB0AiInVrTGB9Jp9i4/Ad21u9Jde/voVQz6eFX/eSg/UsPA==
 
-"@datorama/akita-cli@^4.0.4":
-  version "4.0.4"
-  resolved "https://registry.npmjs.org/@datorama/akita-cli/-/akita-cli-4.0.4.tgz#441701b871f5c4e7299b9d88e10acc027b874433"
-  integrity sha512-GNxkKecRBaSARWtIGW4WzxglF+tg5sbc+hSj7Ce0lZ31RMO7mADwu0LEGVEPtNFGXshNQv2Sdm7aqYnd0IiT9Q==
+"@datorama/akita-cli@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.npmjs.org/@datorama/akita-cli/-/akita-cli-6.1.0.tgz#5631f8b33f70d1776fb9658534ed43b784bc2b9b"
+  integrity sha512-hxFsAUxW8tbvP92g2ZT4iaWXjD5KL47G/T7gcPc5H9smPjWA39rHO3zZYjAGQ/RahGRf9vFZV7rsTQA5VeRuRw==
   dependencies:
     find-package-json "1.2.0"
     inquirer-fuzzy-path "2.0.3"
