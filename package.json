@@ -75,7 +75,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@datorama/akita-cli": "^4.0.4",
+    "@datorama/akita-cli": "^6.1.1",
     "@typescript-eslint/parser": "^1.10.2",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.3.0",
